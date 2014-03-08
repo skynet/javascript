@@ -224,14 +224,14 @@
         i;
 
     messages = [{
-        state: 'success',
-        message: 'This one worked.'
-    },{
-        state: 'success',
-        message: 'This one worked as well.'
-    },{
-        state: 'error',
-        message: 'This one did not work.'
+      state: 'success',
+      message: 'This one worked.'
+    }, {
+      state: 'success',
+      message: 'This one worked as well.'
+    }, {
+      state: 'error',
+      message: 'This one did not work.'
     }];
 
     length = messages.length;
@@ -745,6 +745,7 @@
     ∙∙var name;
     }
     ```
+
   - Place 1 space before the leading brace.
 
     ```javascript
@@ -770,6 +771,17 @@
       breed: 'Bernese Mountain Dog'
     });
     ```
+
+  - Set off operators with spaces.
+
+    ```javascript
+    // bad
+    var x=y+5;
+
+    // good
+    var x = y + 5;
+    ```
+
   - Place an empty newline at the end of the file.
 
     ```javascript
@@ -1356,7 +1368,7 @@
     $('.sidebar > ul').hide();
 
     // good
-    $sidebar.find('ul');
+    $sidebar.find('ul').hide();
     ```
 
     **[[⬆]](#TOC)**
@@ -1419,6 +1431,8 @@
 
   - [Understanding JavaScript Closures](http://javascriptweblog.wordpress.com/2010/10/25/understanding-javascript-closures/) - Angus Croll
   - [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) - Dr. Axel Rauschmayer
+  - [You Might Not Need jQuery](http://youmightnotneedjquery.com/) - Zack Bloom & Adam Schwartz
+  - [ES6 Features](https://github.com/lukehoban/es6features) - Luke Hoban
 
 **Books**
 
@@ -1434,6 +1448,7 @@
   - [Human JavaScript](http://humanjavascript.com/) - Henrik Joreteg
   - [Superhero.js](http://superherojs.com/) - Kim Joar Bekkelund, Mads Mobæk, & Olav Bjorkoy
   - [JSBooks](http://jsbooks.revolunet.com/)
+  - [Third Party JavaScript](http://manning.com/vinegar/) - Ben Vinegar and Anton Kovalyov
 
 **Blogs**
 
@@ -1468,8 +1483,10 @@
   - **Mighty Spring**: [mightyspring/javascript](https://github.com/mightyspring/javascript)
   - **MinnPost**: [MinnPost/javascript](https://github.com/MinnPost/javascript)
   - **ModCloth**: [modcloth/javascript](https://github.com/modcloth/javascript)
+  - **Money Advice Service**: [moneyadviceservice/javascript](https://github.com/moneyadviceservice/javascript)
   - **National Geographic**: [natgeo/javascript](https://github.com/natgeo/javascript)
   - **National Park Service**: [nationalparkservice/javascript](https://github.com/nationalparkservice/javascript)
+  - **Peerby**: [Peerby/javascript](https://github.com/Peerby/javascript)
   - **Razorfish**: [razorfish/javascript-style-guide](https://github.com/razorfish/javascript-style-guide)
   - **REI**: [reidev/js-style-guide](https://github.com/reidev/js-style-guide)
   - **Shutterfly**: [shutterfly/javascript](https://github.com/shutterfly/javascript)
@@ -1488,7 +1505,7 @@
   - :es: **Spanish**: [paolocarrasco/javascript-style-guide](https://github.com/paolocarrasco/javascript-style-guide)
   - :kr: **Korean**: [tipjs/javascript-style-guide](https://github.com/tipjs/javascript-style-guide)
   - :fr: **French**: [nmussy/javascript-style-guide](https://github.com/nmussy/javascript-style-guide)
-  - :ru: **Russian**: [sbezludny/javascript-style-guide](https://github.com/sbezludny/javascript-style-guide)
+  - :ru: **Russian**: [uprock/javascript](https://github.com/uprock/javascript)
   - :bg: **Bulgarian**: [borislavvv/javascript](https://github.com/borislavvv/javascript)
 
 ## <a name='guide-guide'>The JavaScript Style Guide Guide</a>
@@ -1504,7 +1521,7 @@
 
 (The MIT License)
 
-Copyright (c) 2012 Airbnb
+Copyright (c) 2014 Airbnb
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -1528,4 +1545,3 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **[[⬆]](#TOC)**
 
 # };
-
